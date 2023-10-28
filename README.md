@@ -80,8 +80,14 @@ The Elbow method is a method of interpretation and validation of consistency wit
 ## Spending & Income Cluster
 ![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/SpendingCluster.png')
 * We are using the *inertia* as cost function in order to identify the sum of squared distances of samples to the nearest cluster centre.
-* The elbow can be found, approximately, where the number of clusters is *equal to 5*. Therefore we are selecting 5 as the number of clusters to divide our data in.
-![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/postCluster.png')
+* The elbow can be found, approximately, where the number of clusters is *equal to 5*. Therefore we are selecting 5 as the number of clusters to divide our data in.<br/>
+ ![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/postCluster.png')
+
+* *Red Cluster* - The red cluster groups young people with moderate to low annual income who actually spend a lot.
+* *Orange Cluster* - The oragne cluster groups reasonably young people with pretty decent salaries who spend a lot.
+* *Blue Cluster* - The blue cluster basically groups people of all ages whose salary isn't pretty high and their spending score is moderate.
+* *Green Cluster* - The green cluster groups people who actually have pretty good salaries and barely spend money, their age usually lays between thirty and sixty years.
+* *Purple Cluster* - The purple cluster groups whose salary is pretty low and don't spend much money in stores, they are people of all ages.
 
 
 # Analysis Summery
