@@ -18,8 +18,8 @@
 4. Visualization
 
 ## Dataset
-* ![Mall dataset]('https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/')
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+* [Mall dataset]('https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python/')
+* ![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/mallData.png')
 
 Here we have the following features :
 1. CustomerID: It is the unique ID given to a customer
@@ -48,19 +48,19 @@ Here we have the following features :
 ```
 
 ## Annual Income Distribution
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![Annual Income Graph]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/AnnualIncome.png')
 Most of the annual income falls between 50K to 85K.
 
 ## Age Distribution
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![Age Distribution]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/Age.png')
 There are customers of a wide variety of ages.
 
 ## Shopping Score Distribution
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![Spending Score Graph]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/SpendingScore.png')
 The maximum spending score is in the range of 40 to 60.
 
 ## Gender Analysis
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/GenderCount.png')
 More female customers than male.
 
 
@@ -69,17 +69,19 @@ More female customers than male.
 I will use the K-Means Clustering algorithm to cluster the data.To implement K-Means clustering, we need to look at the Elbow Method.
 The Elbow method is a method of interpretation and validation of consistency within-cluster analysis designed to help to find the appropriate number of clusters in a dataset.
 
+![Before Clustering]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/PreCluster.png')
+
 ## Income Cluster
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/IncomeCluster.png')
 
 
 
 
 ## Spending & Income Cluster
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/SpendingCluster.png')
 * We are using the inertia as cost function in order to identify the sum of squared distances of samples to the nearest cluster centre.
 * The elbow can be found, approximately, where the number of clusters is equal to 5. Therefore we are selecting 5 as the number of clusters to divide our data in.
-![data-preview](https://github.com/ImAnitaYadav07/FIFA24_line_up_analysis/blob/127ad3116bfce75a5758cc99f4ee7db37130fc10/dt.png)
+![data-preview]('https://github.com/ImAnitaYadav07/Customer-Segmentation-Analysis/blob/4869f71e0ac6a14364eab4cccff38fcdb4fc6e41/postCluster.png')
 
 
 # Analysis Summery
